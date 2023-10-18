@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  /*header {
+    background-color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 0px;
+    text-align: center;
+  }*/
+  .menu ul {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 28px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0%;
+    height: 20px;
+    justify-content: right;
+    background: url(../img/logo-geo-cabo-frio-02.png) no-repeat left;
+  }
+
+  .menu a {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: right;
+  }
+
+  .menu ul li a:hover {
+ color:#2b88d8 ;
+ border-bottom: 5px solid #106ebe;
+ transition: 0.3s;
+ border-radius: 4px;
+}
+ 
+
+/*rodapé------------------------------------*/
+
+.rodape{
+  color: #004578;
+  height: auto;
+  width: 100%;
+  font-size: 12px;
+  font-family: helvetica;
+  justify-content: center;
+  background: #c7e0f4 url(../img/icone-rodape.png) no-repeat left;
+  box-sizing: border-box;
+}
+.rodape a{
+  text-decoration: none ;
+  color: #240078;
+  padding-left: 0%;
+  margin-left: 0%;
+
+ 
+}
+.rodape ul{
+  margin-bottom: 5px;
+  margin-top: 20px;
+  
+
+}
+
+.rodape li{
+  padding:10px;
+  padding-left: 0%;
+  margin-left: 0%;
+  text-align: left;
+  color: white;
+  list-style-type: none;
+  display:flex;
+}
+.rodape-div{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: 0 10px;
+  padding: 60px 200px 40px 460px;
+
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+  width: 15px;
+  padding: 2px;
+  margin: 0%;
+  display:flex;
+}
+.rodape span{
+  font-size: 12px;
+  color:#004578;
+  background-color: #deecf9;
+  padding: 10px 40px ;
+  border-radius: 1px 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-content: center;
+  margin: 2px 30px;
+}
+.rodape-direitos{
+  width: calc(100% - 20px);
+  background: #004578;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+.rodape ul li:hover{
+  background-color: #deecf9;
+  transition: 0.3s;
+  border-radius: 4px;
+  width: 130px;
+  transform: translate(-1%,10%);
+
+  display: flex;
+}
+
+
+/*mobile*/
+@media (max-width: 1500px) {
+  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+      width: calc(50% - 20px);
+      padding: 10px;
+  }
+  .rodape-div{
+      padding: 30px 0px 20px 0px;
+  }
+}
+
+
+
